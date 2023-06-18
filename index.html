@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilização.css">
+    <title>Site com imagens</title>
+    <style>
+        div.quadrado{
+            display: inline-block;
+            border: solid 1px black;
+            border-radius: 10px;
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+        }
+
+        #a1{
+            background-color: #267365;
+        }
+
+        #a2{
+            background-image: linear-gradient(to top,  #F2CB05, #F28705, #F23030);
+        }
+
+        #a3{
+            background-image: url('imagens/pattern001.png');
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            FETECH IMAGES
+        </h1>
+        <nav>
+            <a href="#">Menu</a>
+            <a href="#">Estilos</a>
+            <a href="#">Projetos</a>
+            <a href="#">Fale conosco</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Using images on page</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus molestias laboriosam minima nam cupiditate aut ipsa est consectetur quisquam voluptates excepturi modi non, veritatis quo harum iste, architecto voluptatibus itaque.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere harum eius quod quaerat eaque eveniet in, doloremque suscipit est, fugit vero ex quam nihil, dolorum sit? Commodi aut asperiores omnis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos placeat sed laboriosam explicabo pariatur nostrum minima. Corrupti beatae cupiditate, pariatur itaque ipsa dolore alias laudantium voluptas, excepturi distinctio unde expedita. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, esse voluptatem? Minus iure laudantium alias quibusdam cumque non provident, labore accusantium sed dolore repudiandae, omnis ea, voluptatibus asperiores laboriosam tempore!</p>
+        </article>
+        <section>
+            <div class="quadrado" id="a1">
+
+            </div>
+            <div class="quadrado" id="a2">
+
+            </div>
+            <div class="quadrado" id="a3">
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por <strong>Fellipe Reis</strong>
+    </footer>
+</body>
+</html>
