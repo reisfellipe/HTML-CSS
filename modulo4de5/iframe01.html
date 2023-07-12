@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Iframe</title>
+    <style>
+        body {
+            background-image: linear-gradient(to top, rgb(32, 67, 161), lightblue
+            );
+            height: 100vh;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 900;
+            color: cadetblue;
+            text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.486);
+        }
+
+        iframe {
+            height: 400px;
+            width: 400px;
+            border: 2px solid black;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CURSO DE HTML E CSS - MODULO 4 DE 5</h1>
+    <p>Aula sobre iframes</p>
+    <div class="primeiro">
+        <p>
+            acesse meu portifolio
+            <!--Iframe pode ser estilizado inline, porém terá prioridade as estilizações feitas dentro da tag HEAD-->
+            <iframe src="https://reisfellipe.github.io/Fellipe-Reis-Portfolio/">
+                <!--Caso o navegador de mobile não seja compátivel ao iframe, será exibido a mensagem/conteúdo dentro da tag iframe-->
+                <a href="https://reisfellipe.github.io/Fellipe-Reis-Portfolio/">Portifolio Fellipe Reis</a>
+            </iframe>
+        </p>
+    </div>
+    <div class="segundo">
+        <p>
+            Eu comecei a aprender HTML e CSS pelo 
+            <iframe src="https://www.cursoemvideo.com/curso/" frameborder="0" height="600" width="600">
+                <a href="hhttps://www.cursoemvideo.com/curso/">CursoemVideo</a>
+            </iframe>
+        </p>
+    </div>
+</body>
+</html>
